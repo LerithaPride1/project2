@@ -1,0 +1,17 @@
+INSERT INTO providers (img, name, address, description, type, capacity, budget, price) 
+VALUES ("img", "Sky Creek Ranch Golf Club", "600 Promontory Drive, Keller, TX 76248", "Is a truly grand and magnificent venue that is perfect for your big day. Offers an expansive space both indoors and outdoors in a prisetine natural setting", "venue", "180 guests", "medium", 4000),
+("img", "Aguilar Events Center", "6901 McCart Avenue, Fort Worth, TX  76248", "Tucked away in the busting Ft. Worth and Dallas metro are with two halls to serve you.  A family owned and operated event space that can create a clean, modern atmosphere for your big day", "venue", "150 guests", "low", 2000),
+("img", "The Tribute Golf Club", "1000 Lebanon Road, The Colony, TX 75056", "Offers a variety of spectacular indoor and outdoor venues guaranteed to make your wedding celebration unforgettable.  From the beautifully-appointed ballrooms to the lovely outdoor space with panoramic vistas", "venue", "220 guests", "high", 8000),
+("img", "Brandi McComb Photography", "Sachse, TX", "Has been an independent photographer for the last 15 years shooting on location or in her studio. 6 hours with 2 photographers", "photographers","500+ negatives", "high", 3000),
+("img", "Brittany Feagans Photography", "Plano, TX", "Unique, affordable wedding photographer and will travel nationally for your event. 2 hours with 1 photographer", "photographer", "150+ negatives", "low", 1000),
+("img", "Matin Media Photography", "Dallas, TX", "I'm one of the lucky ones.  I get to do a job that I love. 4 hours with 2 photographers", "photographers", "250+ negatives", "medium", 2000),
+("img", "The Butterfly Cake Factory", "402 W. Boyd Dr, Allen, TX", "Wedding cakes baked with the best ingredients, produced with the highest quality.", "cake", "$4 per slice", "medium", 2000),
+("img", "Legacy Cakes", "120 S. Main Street, Grapevine, TX", "As seen on TLC's The Next Great Baker", "cake", "$6 per slice", "high", 2000),
+("img", "Sugar Bee Sweets", "Dallas, TX", "We design each cake to match you, your special event or your individual personality", "cake","$2 per slice", "low", 2000),
+("img", "LeForce Entertainment", "Dallas, TX", " LeForce offers an exclusive boutique-influenced DJ service that uses a completely modern approach to create unique event", "dj", "1 hour", "low", 500),
+("img", "106.1 Kiss-FM DJ Michael", "Dallas, TX", "This will be the most unique and different experience for you as I will help you create a game plan that will have you and your guests energized in a way few have ever seen.", "dj", "2 hours", "high", 2000),
+("img", "DJ Connection", "Dallas, TX", "Best of the Best - Wedding MBA Award Winner - Entrepreneur of the Year", "dj", "1.5 hour", "medium", 1000),
+("img", "Billie Ball & Co.", "Dallas, TX", "We believe every couple deserves the unique wedding of their dreams. We offer full service floral design and installation", "florist", "300 guests", "high", 3000),
+("img", "Floralee", "Fort Worth, TX", "Fresh arrangements that will be the perfect backdrop for your wedding! Custom, made-to-order flowers that will be beautiful and affordable in price", "florist", "200 guests", "medium", 2000),
+("img", "Sage Fine Flowers", "Fort Worth, TX", "Brides love our attention to detail, our unique and creative floral design, and the premium flowers that we gather from every corner of the planet.", "florist", "100 guests", "low", 1000);
+
