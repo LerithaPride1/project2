@@ -42,16 +42,5 @@ module.exports = function(sequelize, DataTypes) {
     return Florist;
 };
 
-// Florist.sync().then(function() {
-//         // Table created
-//         return Florist.create({
-//             company: 'RP Printing',
-//             email: 'mwqeyoi@yahoo.com',
-//             phone: 89286757,
-//             // ZipCode: 67890,
-//             price: 400
 
-//         });
-//     return Florist;
-// });
 
