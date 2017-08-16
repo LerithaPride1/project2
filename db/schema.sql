@@ -1,7 +1,7 @@
 CREATE DATABASE Providers;
 USE providers;
 
-CREATE TABLE venues (
+CREATE TABLE providers (
 ID INTEGER AUTO_INCREMENT,
 img LONGBLOB NOT NULL,
 name VARCHAR(100) not null,
