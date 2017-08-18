@@ -45,12 +45,12 @@ module.exports = function(app) {
   // Florist route for saving a new Florist
   app.post("/api/florist", function(req, res) {
     console.log(req.body);
-    db.Florist.create({
-      company: 'ABC',
-      email: 'ABC@email.com',
-      phone: 1234,
-      description: 'description',
-      price: 123
+     db.Florist.create({
+      company: req.body.company,
+      email: req.body.email,
+      phone: req.body.phone,
+      description: req.body.description,
+      price: req.body.price
     })
     .then(function(dbFlorist) {
       res.json(dbFlorist);
